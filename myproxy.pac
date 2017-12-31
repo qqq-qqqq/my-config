@@ -3,10 +3,15 @@ function FindProxyForURL(url, host) {
 var eduList = {
 'cnki.net':1,
 'wanfangdata.com':1,
+// ustc
 'light.ustclug.org':1,
 'tv.ustc.edu.cn':1,
-'video.ustc.edu.cn':1
-
+'video.ustc.edu.cn':1,
+'zbh.ustc.edu.cn':1,
+// edu pt
+'bt.neu6.edu.cn':1,
+'hudbt.hust.edu.cn':1,
+'npupt.com':1
 };
 
 var gfwList = {
@@ -51,6 +56,7 @@ var gfwList = {
 'pixiv.net':1,
 // facebook
 'facebook.com':1,
+'facebook.net':1,
 'fb.com':1,
 'fb.me':1,
 'fbcdn.net':1,
