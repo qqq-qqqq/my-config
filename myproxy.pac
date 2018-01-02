@@ -1,8 +1,10 @@
 function FindProxyForURL(url, host) {
 
 var eduList = {
+'cnki.com.cn':1,
 'cnki.net':1,
 'wanfangdata.com':1,
+'cqvip.com':1,
 // ustc
 'light.ustclug.org':1,
 'tv.ustc.edu.cn':1,
@@ -75,7 +77,7 @@ var gfwList = {
 };
 
 var gfwproxy = 'PROXY 10.17.17.1:17887; HTTPS light.ustclug.org:29980; DIRECT';
-var eduproxy = 'PROXY 10.17.17.1:3128'
+var eduproxy = 'PROXY 10.17.17.1:3128; DIRECT'
 
 function testDomain(target, domains) {
     var idx = target.lastIndexOf('.');
@@ -111,7 +113,8 @@ else if (testDomain(host, gfwList)) {
     return gfwproxy;
 }
 else if (testDomain(host, eduList)) {
-}   return eduproxy;
+    return eduproxy;
+}
 
 return 'DIRECT';
 
