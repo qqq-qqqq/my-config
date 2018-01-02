@@ -110,7 +110,7 @@ var gfwList = {
 // wiki
 'wikipedia.org':1,
 'mediawiki.org':1,
-'wikibooks.org'
+'wikibooks.org':1,
 'wikidata.org':1,
 'wikimedia.org':1,
 'wikinews.org':1,
@@ -123,7 +123,7 @@ var gfwList = {
 };
 
 var gfwproxy = 'PROXY 10.17.17.1:17887; HTTPS light.ustclug.org:29980; DIRECT';
-var eduproxy = 'PROXY 10.17.17.1:3128; DIRECT'
+var eduproxy = 'PROXY 10.17.17.1:3128; DIRECT';
 
 function testDomain(target, domains) {
     var idx = target.lastIndexOf('.');
