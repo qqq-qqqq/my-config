@@ -1,5 +1,9 @@
 function FindProxyForURL(url, host) {
 
+var blkList = {
+
+}
+
 var eduList = {
 'cnki.com.cn':1,
 'cnki.net':1,
@@ -82,6 +86,7 @@ var gfwList = {
 'ytimg.com':1,
 // openvpn
 'openvpn.net':1,
+'openvpn.org':1,
 // misc
 'akamai.net':1,
 'pinimg.com':1,
@@ -91,6 +96,9 @@ var gfwList = {
 'my.pcloud.com':1,
 // pixiv
 'pixiv.net':1,
+// softether
+'softether.org':1,
+'softether-download.com':1,
 // telegram
 't.me':1,
 'telegram.me':1,
@@ -154,6 +162,9 @@ if (typeof host === 'undefined'
     || dnsResolve(host) === "10.17.17.1"
     || dnsResolve(host) === "202.38.64.9") {
     return 'DIRECT';
+}
+else if (testDomain(host, blkList)) {
+    return 'PROXY 0.0.0.0:16'
 }
 else if (testDomain(host, gfwList)) {
     return gfwproxy;
