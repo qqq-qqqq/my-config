@@ -1,7 +1,32 @@
 function FindProxyForURL(url, host) {
 
 var blkList = {
-
+// baidu
+'cb.baidu.com':1,
+'cbjs.baidu.com':1,
+'cbjslog.baidu.com':1,
+'cpro.baidu.com':1,
+'cpro.baidustatic.com':1,
+'cpro.tieba.baidu.com':1,
+'cpro.zhidao.baidu.com':1,
+'drmcmm.baidu.com':1,
+'duiwai.baidu.com':1,
+'eiv.baidu.com':1,
+'hm.baidu.com':1,
+'mobads.baidu.com':1,
+'pos.baidu.com':1,
+// dianping
+'stat.api.dianping.com':1,
+// qq
+'btrace.qq.com':1,
+'bugly.qq.com':1,
+'report.qq.com':1,
+// netease
+'analytics.163.com':1,
+'c.youdao.com':1,
+// zhihu
+'zhihu-analytics.zhihu.com':1,
+'zhihu-web-analytics.zhihu.com':1
 }
 
 var eduList = {
