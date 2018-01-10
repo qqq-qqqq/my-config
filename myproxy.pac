@@ -189,7 +189,7 @@ if (typeof host === 'undefined'
     return 'DIRECT';
 }
 else if (testDomain(host, blkList)) {
-    return 'PROXY 0.0.0.0:16'
+    return 'PROXY 127.0.0.1:16'
 }
 else if (testDomain(host, gfwList)) {
     return gfwproxy;
