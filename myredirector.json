@@ -1,0 +1,268 @@
+[
+{
+	"enabled": 0,
+	"match": {
+		"modi": false,
+		"str": "*baidu.com/*",
+		"type": 3
+	},
+	"name": "Baidu UA",
+	"repl": {
+		"decode": false,
+        "str": "Mozilla/5.0 (Linux; U; Android 7.0; zh-CN; SM-G9300 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.6.946 Mobile Safari/537.36"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "User-Agent",
+		"type": 3
+	}
+},
+{
+	"enabled": 0,
+	"match": {
+		"modi": false,
+		"str": "*m.taobao.com/*",
+		"type": 3
+	},
+	"name": "Taobao Mobile UA",
+	"repl": {
+		"decode": false,
+        "str": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1.4"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "User-Agent",
+		"type": 3
+	}
+},
+{
+	"enabled": 0,
+	"match": {
+		"modi": true,
+		"str": "http://127.0.0.1:63457/*",
+		"type": 1
+	},
+	"name": "Redirect Vidyo to V6",
+	"repl": {
+		"decode": false,
+		"str": "http://[::1]:63457/"
+	},
+	"sub": {
+		"modg": false,
+		"modi": true,
+		"str": "http://127.0.0.1:63457/",
+		"type": 0
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "registry-1.docker.io/*",
+		"type": 3
+	},
+	"name": "Proxy registry-1.docker.io",
+	"repl": {
+		"decode": false,
+		"str": "docker.mirrors.ustc.edu.cn"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "registry-1.docker.io",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "packages.elastic.co/*",
+		"type": 3
+	},
+	"name": "Proxy packages.elastic.co",
+	"repl": {
+		"decode": false,
+		"str": "elastic.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "packages.elastic.co",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "ppa.launchpad.net/*",
+		"type": 3
+	},
+	"name": "Proxy ppa.launchpad.net",
+	"repl": {
+		"decode": false,
+		"str": "launchpad.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "ppa.launchpad.net",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "archive.cloudera.com/cdh5/*",
+		"type": 3
+	},
+	"name": "Proxy archive.cloudera.com/cdh5",
+	"repl": {
+		"decode": false,
+		"str": "cloudera.proxy.ustclug.org/cdh5"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "archive.cloudera.com/cdh5",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "downloads.openwrt.org/*",
+		"type": 3
+	},
+	"name": "Proxy downloads.openwrt.org",
+	"repl": {
+		"decode": false,
+		"str": "openwrt.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "downloads.openwrt.org",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "registry.npmjs.org/*",
+		"type": 3
+	},
+	"name": "Proxy registry.npmjs.org",
+	"repl": {
+		"decode": false,
+		"str": "npmreg.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "registry.npmjs.org",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "www.npmjs.com/*",
+		"type": 3
+	},
+	"name": "Proxy www.npmjs.com",
+	"repl": {
+		"decode": false,
+		"str": "npm.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "www.npmjs.com",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "fonts.gstatic.com/*",
+		"type": 3
+	},
+	"name": "Proxy fonts.gstatic.com",
+	"repl": {
+		"decode": false,
+		"str": "fonts-gstatic.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "fonts.gstatic.com",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "fonts.googleapis.com/*",
+		"type": 3
+	},
+	"name": "Proxy fonts.googleapis.com",
+	"repl": {
+		"decode": false,
+		"str": "fonts.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "fonts.googleapis.com",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "ajax.googleapis.com/*",
+		"type": 3
+	},
+	"name": "Proxy ajax.googleapis.com",
+	"repl": {
+		"decode": false,
+		"str": "ajax.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "ajax.googleapis.com",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "themes.googleusercontent.com/*",
+		"type": 3
+	},
+	"name": "Proxy themes.googleusercontent.com",
+	"repl": {
+		"decode": false,
+		"str": "google-themes.proxy.ustclug.org"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "themes.googleusercontent.com",
+		"type": 1
+	}
+}
+]
