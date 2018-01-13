@@ -1,41 +1,22 @@
 [
 {
-	"enabled": 0,
-	"match": {
-		"modi": false,
-		"str": "*baidu.com/*",
-		"type": 3
-	},
 	"name": "Baidu UA",
-	"repl": {
-		"decode": false,
-        "str": "Mozilla/5.0 (Linux; U; Android 7.0; zh-CN; SM-G9300 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.6.946 Mobile Safari/537.36"
-	},
-	"sub": {
-		"modg": false,
-		"modi": false,
-		"str": "User-Agent",
-		"type": 3
-	}
-},
-{
-	"enabled": 0,
 	"match": {
-		"modi": false,
-		"str": "*m.taobao.com/*",
-		"type": 3
-	},
-	"name": "Taobao Mobile UA",
-	"repl": {
-		"decode": false,
-        "str": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A405 Safari/600.1.4"
+		"str": "*baidu.com/wap/*",
+		"type": 3,
+		"modi": false
 	},
 	"sub": {
-		"modg": false,
-		"modi": false,
 		"str": "User-Agent",
-		"type": 3
-	}
+		"type": 3,
+		"modi": false,
+		"modg": false
+	},
+	"repl": {
+		"str": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1",
+		"decode": false
+	},
+	"enabled": 0
 },
 {
 	"enabled": 0,
