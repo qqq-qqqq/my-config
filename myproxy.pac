@@ -124,6 +124,8 @@ var gfwList = {
 // softether
 'softether.org':1,
 'softether-download.com':1,
+// steam
+'steamcommunity.com':1,
 // telegram
 't.me':1,
 'telegram.me':1,
