@@ -46,6 +46,8 @@ var eduList = {
 };
 
 var gfwList = {
+// apkpure
+'apkpure.com':1,
 // box
 'box.net':1,
 // facebook
@@ -117,6 +119,7 @@ var gfwList = {
 'pinimg.com':1,
 'pstatic.net':1,
 'pinterest.com':1,
+'onion.rip':1,
 // pcloud
 'my.pcloud.com':1,
 // pixiv
