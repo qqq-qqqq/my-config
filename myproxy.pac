@@ -114,6 +114,13 @@ var gfwList = {
 // openvpn
 'openvpn.net':1,
 'openvpn.org':1,
+// mega
+'mega.nz':1,
+'megaproxy.com':1,
+'megarotic.com':1,
+'megavideo.com':1,
+'imgmega.com':1,
+'videomega.tv':1,
 // misc
 'akamai.net':1,
 'pinimg.com':1,
