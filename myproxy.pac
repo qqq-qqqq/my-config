@@ -35,6 +35,7 @@ var eduList = {
 'wanfangdata.com':1,
 'cqvip.com':1,
 // ustc
+'servers.ustclug.org':1,
 'light.ustclug.org':1,
 'tv.ustc.edu.cn':1,
 'video.ustc.edu.cn':1,
@@ -123,10 +124,12 @@ var gfwList = {
 'videomega.tv':1,
 // misc
 'akamai.net':1,
+'akamaihd.net':1,
+'cloudfront.net':1,
+'onion.rip':1,
 'pinimg.com':1,
 'pstatic.net':1,
 'pinterest.com':1,
-'onion.rip':1,
 // pcloud
 'my.pcloud.com':1,
 // pixiv
@@ -168,7 +171,7 @@ var gfwList = {
 };
 
 var gfwproxy = 'PROXY 10.17.17.1:17887; HTTPS light.ustclug.org:29980; DIRECT';
-var eduproxy = 'PROXY 10.17.17.1:3128; DIRECT';
+var eduproxy = 'SOCKS5 10.17.17.1:1080; SOCKS 10.17.17.1:1080; PROXY 10.17.17.1:3128; DIRECT';
 
 function testDomain(target, domains) {
     var idx = target.lastIndexOf('.');
