@@ -32,15 +32,33 @@ var blkList = {
 var eduList = {
 'cnki.com.cn':1,
 'cnki.net':1,
-'wanfangdata.com':1,
 'cqvip.com':1,
-// ustc
-'servers.ustclug.org':1,
+'wanfangdata.com.cn':1,
+//
+'aip.org':1,
+'annualreviews.org':1,
+'cambridge.org':1,
+'ci.nii.ac.jp':1,
+'computingreviews.com':1,
+'iop.org':1,
+'ieeexplore.ieee.org':1,
+'journals.aps.org':1,
+'mitpressjournals.org':1,
+'nature.com':1,
+'oup.com':1,
+'pnas.org':1,
+'sciencedirect.com':1,
+'sciencemag.org':1,
+'springer.com':1,
+'wiley.com':1,
+'worldscientific.com':1,
+// 
 'light.ustclug.org':1,
+'servers.ustclug.org':1,
 'tv.ustc.edu.cn':1,
 'video.ustc.edu.cn':1,
 'zbh.ustc.edu.cn':1,
-// edu pt
+// 
 'bt.neu6.edu.cn':1,
 'hudbt.hust.edu.cn':1,
 'npupt.com':1
