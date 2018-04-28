@@ -1,0 +1,118 @@
+[
+
+
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "baidu.com.cn/*",
+		"type": 3
+	},
+	"name": "[TiebaRed] baidu.com.cn",
+	"repl": {
+		"decode": false,
+		"str": "baidu.com"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "baidu.com.cn",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "baidu.cn/*",
+		"type": 3
+	},
+	"name": "[TiebaRed] baidu.cn",
+	"repl": {
+		"decode": false,
+		"str": "baidu.com"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "baidu.cn",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "www.tieba.com/*",
+		"type": 3
+	},
+	"name": "[TiebaRed] www.tieba.com",
+	"repl": {
+		"decode": false,
+		"str": "tieba.baidu.com"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "www.tieba.com",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "v.tieba.com/*",
+		"type": 3
+	},
+	"name": "[TiebaRed] v.tieba.com",
+	"repl": {
+		"decode": false,
+		"str": "tieba.baidu.com"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "v.tieba.com",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "1111.baidu.com/*",
+		"type": 3
+	},
+	"name": "[TiebaRed] 1111.baidu.com",
+	"repl": {
+		"decode": false,
+		"str": "tieba.baidu.com"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "1111.baidu.com",
+		"type": 1
+	}
+},
+{
+	"enabled": 1,
+	"match": {
+		"modi": false,
+		"str": "c.tieba.baidu.com/*",
+		"type": 3
+	},
+	"name": "[TiebaRed] c.tieba.baidu.com",
+	"repl": {
+		"decode": false,
+		"str": "tieba.baidu.com"
+	},
+	"sub": {
+		"modg": false,
+		"modi": false,
+		"str": "c.tieba.baidu.com",
+		"type": 1
+	}
+}
+]
